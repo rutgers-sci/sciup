@@ -5190,6 +5190,18 @@
         ]
     },
     {
+        "name": "rutgers-sci/scib",
+        "version": "1.02",
+        "version_normalized": "1.02.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rutgers-sci/scib.git",
+            "reference": "master"
+        },
+        "type": "drupal-theme-custom",
+        "installation-source": "source"
+    },
+    {
         "name": "rvtraveller/qs-composer-installer",
         "version": "1.1",
         "version_normalized": "1.1.0.0",
