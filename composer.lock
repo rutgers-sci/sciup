@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "723bba700253ea72db848d30914bce83",
+    "content-hash": "17f2d38e117c66e4c7cf0af7028525b6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3414,6 +3414,16 @@
                 "shell"
             ],
             "time": "2017-12-28T16:14:16+00:00"
+        },
+        {
+            "name": "rutgers-sci/scib",
+            "version": "1.02",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rutgers-sci/scib.git",
+                "reference": "master"
+            },
+            "type": "drupal-theme-custom"
         },
         {
             "name": "rvtraveller/qs-composer-installer",
