@@ -9,17 +9,8 @@
             "url": "https://packages.drupal.org/8"
         },
         "myrepository": {
-            "type": "package",
-            "package": {
-            "name": "rutgers-sci/scib",
-            "version": "1.02",
-            "type": "drupal-theme-custom",
-            "source": {
-              "url": "https://github.com/rutgers-sci/scib.git",
-              "type": "git",
-              "reference": "master"
-            }
-          }
+            "type": "vcs",
+            "url": "https://github.com/rutgers-sci/scib"
         }
     },
     "require": {
@@ -42,7 +33,7 @@
         "drupal/simple_block": "^1.0@beta",
         "drupal/video_embed_field": "^1.5",
         "drush/drush": "~8",
-        "rutgers-sci/scib": "^1.02",
+        "rutgers-sci/scib": "^1",
         "rvtraveller/qs-composer-installer": "^1.1",
         "webflo/drupal-core-strict": "^8"
     },

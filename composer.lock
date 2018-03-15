@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "17f2d38e117c66e4c7cf0af7028525b6",
+    "content-hash": "fa1e157bc6cb3999442a5b78c207c621",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3417,13 +3417,26 @@
         },
         {
             "name": "rutgers-sci/scib",
-            "version": "1.02",
+            "version": "1.04",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rutgers-sci/scib.git",
-                "reference": "master"
+                "reference": "2cf27c2bb65c6b34a8acf5ff7ee7fb657cf9e9ce"
             },
-            "type": "drupal-theme-custom"
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/2cf27c2bb65c6b34a8acf5ff7ee7fb657cf9e9ce",
+                "reference": "2cf27c2bb65c6b34a8acf5ff7ee7fb657cf9e9ce",
+                "shasum": ""
+            },
+            "type": "drupal-theme-custom",
+            "description": "sub theme of Bootstrap for Rutgers SCI sites",
+            "homepage": "https://github.com/rutgers-sci/scib",
+            "support": {
+                "source": "https://github.com/rutgers-sci/scib/tree/1.04",
+                "issues": "https://github.com/rutgers-sci/scib/issues"
+            },
+            "time": "2018-03-14T21:02:15+00:00"
         },
         {
             "name": "rvtraveller/qs-composer-installer",
