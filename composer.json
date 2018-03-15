@@ -42,7 +42,7 @@
         "drupal/simple_block": "^1.0@beta",
         "drupal/video_embed_field": "^1.5",
         "drush/drush": "~8",
-        "rutgers-sci/scib": "^1.02",
+        "rutgers-sci/scib": "^1.04",
         "rvtraveller/qs-composer-installer": "^1.1",
         "webflo/drupal-core-strict": "^8"
     },
