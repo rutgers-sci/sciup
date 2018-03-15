@@ -5191,15 +5191,28 @@
     },
     {
         "name": "rutgers-sci/scib",
-        "version": "1.02",
-        "version_normalized": "1.02.0.0",
+        "version": "1.04",
+        "version_normalized": "1.04.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/rutgers-sci/scib.git",
-            "reference": "master"
+            "reference": "2cf27c2bb65c6b34a8acf5ff7ee7fb657cf9e9ce"
         },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/2cf27c2bb65c6b34a8acf5ff7ee7fb657cf9e9ce",
+            "reference": "2cf27c2bb65c6b34a8acf5ff7ee7fb657cf9e9ce",
+            "shasum": ""
+        },
+        "time": "2018-03-14T21:02:15+00:00",
         "type": "drupal-theme-custom",
-        "installation-source": "source"
+        "installation-source": "dist",
+        "description": "sub theme of Bootstrap for Rutgers SCI sites",
+        "homepage": "https://github.com/rutgers-sci/scib",
+        "support": {
+            "source": "https://github.com/rutgers-sci/scib/tree/1.04",
+            "issues": "https://github.com/rutgers-sci/scib/issues"
+        }
     },
     {
         "name": "rvtraveller/qs-composer-installer",
