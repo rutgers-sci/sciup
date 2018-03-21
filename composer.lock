@@ -358,16 +358,16 @@
         },
         {
             "name": "consolidation/output-formatters",
-            "version": "3.1.13",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/output-formatters.git",
-                "reference": "3188461e965b32148c8fb85261833b2b72d34b8c"
+                "reference": "da889e4bce19f145ca4ec5b1725a946f4eb625a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/3188461e965b32148c8fb85261833b2b72d34b8c",
-                "reference": "3188461e965b32148c8fb85261833b2b72d34b8c",
+                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/da889e4bce19f145ca4ec5b1725a946f4eb625a9",
+                "reference": "da889e4bce19f145ca4ec5b1725a946f4eb625a9",
                 "shasum": ""
             },
             "require": {
@@ -376,10 +376,16 @@
                 "symfony/finder": "^2.5|^3|^4"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8",
-                "satooshi/php-coveralls": "^1.0.2 | dev-master",
+                "g-1-a/composer-test-scenarios": "^2",
+                "phpunit/phpunit": "^5.7.27",
+                "satooshi/php-coveralls": "^2",
                 "squizlabs/php_codesniffer": "^2.7",
+                "symfony/console": "3.2.3",
+                "symfony/var-dumper": "^2.8|^3|^4",
                 "victorjonsson/markdowndocs": "^1.3"
+            },
+            "suggest": {
+                "symfony/var-dumper": "For using the var_dump formatter"
             },
             "type": "library",
             "extra": {
@@ -403,7 +409,7 @@
                 }
             ],
             "description": "Format text by applying transformations provided by plug-in formatters.",
-            "time": "2017-11-29T15:25:38+00:00"
+            "time": "2018-03-20T15:18:32+00:00"
         },
         {
             "name": "cweagans/composer-patches",
@@ -3417,26 +3423,26 @@
         },
         {
             "name": "rutgers-sci/scib",
-            "version": "1.04",
+            "version": "v1.04.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rutgers-sci/scib.git",
-                "reference": "2cf27c2bb65c6b34a8acf5ff7ee7fb657cf9e9ce"
+                "reference": "316ff9709f82d58d48d86800d05b2b456b0393b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/2cf27c2bb65c6b34a8acf5ff7ee7fb657cf9e9ce",
-                "reference": "2cf27c2bb65c6b34a8acf5ff7ee7fb657cf9e9ce",
+                "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/316ff9709f82d58d48d86800d05b2b456b0393b0",
+                "reference": "316ff9709f82d58d48d86800d05b2b456b0393b0",
                 "shasum": ""
             },
             "type": "drupal-theme-custom",
             "description": "sub theme of Bootstrap for Rutgers SCI sites",
             "homepage": "https://github.com/rutgers-sci/scib",
             "support": {
-                "source": "https://github.com/rutgers-sci/scib/tree/1.04",
+                "source": "https://github.com/rutgers-sci/scib/tree/v1.04.1",
                 "issues": "https://github.com/rutgers-sci/scib/issues"
             },
-            "time": "2018-03-14T21:02:15+00:00"
+            "time": "2018-03-21T16:57:40+00:00"
         },
         {
             "name": "rvtraveller/qs-composer-installer",
