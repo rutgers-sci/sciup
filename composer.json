@@ -11,6 +11,18 @@
         "myrepository": {
             "type": "vcs",
             "url": "https://github.com/rutgers-sci/scib"
+        },
+        "colorboxlib": {
+            "type": "package",
+            "package": {
+                "name": "jackmoore/colorbox",
+                "version": "1.6.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
+                    "type": "zip"
+                }
+            }
         }
     },
     "require": {
@@ -36,6 +48,7 @@
         "drupal/simple_sitemap": "^2.11",
         "drupal/video_embed_field": "^1.5",
         "drush/drush": "~8",
+        "jackmoore/colorbox": "^1.6",
         "rutgers-sci/scib": "^1",
         "rvtraveller/qs-composer-installer": "^1.1",
         "webflo/drupal-core-strict": "^8"
@@ -105,6 +118,9 @@
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
             ]
         },
         "build-env": {
