@@ -141,6 +141,8 @@
 /*layout*/
 .main-container {max-width: 1600px;}
 .col-sm-12 .region-content .field--name-body,
+.col-sm-12 .region-content .field--name-field-image-for-gallery,
+.col-sm-12 .region-content .contact-form,
 .col-sm-12 .region-content .page-header,
 .col-sm-12 .region-content .block-views {
   margin: 0 117px 20px;
@@ -150,6 +152,8 @@
 }
 
 .col-sm-9 .region-content .field--name-body,
+.col-sm-9 .region-content .field--name-field-image-for-gallery,
+.col-sm-9 .region-content .contact-form,
 .col-sm-9 .region-content .page-header,
 .col-sm-9 .region-content .block-views {
   margin: 0 20px 20px;

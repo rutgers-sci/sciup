@@ -37,3 +37,14 @@ h1, h2, h3 {font-family: "Raleway",Helvetica,Arial,sans-serif;}
 }
 
 .align-left {padding-right: 20px;}
+
+
+/*gallery - images */
+.field--name-field-image-for-gallery .field--item{
+  float: left;
+  max-width: 250px;
+  margin-right: .5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form, .user-login-form {max-width: 800px;}
