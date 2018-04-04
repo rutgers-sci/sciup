@@ -6492,21 +6492,29 @@ p:last-child,
   max-width: 1600px; }
 
 .col-sm-12 .region-content .field--name-body,
+.col-sm-12 .region-content .field--name-field-image-for-gallery,
+.col-sm-12 .region-content .contact-form,
 .col-sm-12 .region-content .page-header,
 .col-sm-12 .region-content .block-views {
   margin: 0 117px 20px; }
   @media (max-width: 1249px) {
     .col-sm-12 .region-content .field--name-body,
+    .col-sm-12 .region-content .field--name-field-image-for-gallery,
+    .col-sm-12 .region-content .contact-form,
     .col-sm-12 .region-content .page-header,
     .col-sm-12 .region-content .block-views {
       margin: 0 0 10px; } }
 
 .col-sm-9 .region-content .field--name-body,
+.col-sm-9 .region-content .field--name-field-image-for-gallery,
+.col-sm-9 .region-content .contact-form,
 .col-sm-9 .region-content .page-header,
 .col-sm-9 .region-content .block-views {
   margin: 0 20px 20px; }
   @media (max-width: 1249px) {
     .col-sm-9 .region-content .field--name-body,
+    .col-sm-9 .region-content .field--name-field-image-for-gallery,
+    .col-sm-9 .region-content .contact-form,
     .col-sm-9 .region-content .page-header,
     .col-sm-9 .region-content .block-views {
       margin: 0 0 10px; } }
@@ -6910,6 +6918,16 @@ h1, h2, h3 {
 
 .align-left {
   padding-right: 20px; }
+
+/*gallery - images */
+.field--name-field-image-for-gallery .field--item {
+  float: left;
+  max-width: 250px;
+  margin-right: .5rem;
+  margin-bottom: 1rem; }
+
+.contact-form, .user-login-form {
+  max-width: 800px; }
 
 /*BANNER - set up with features/banner_bundle_banner_block module
 ===========================*/
