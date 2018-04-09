@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6286d30f4722475918235088cefa6eba",
+    "content-hash": "13134d205a30246e0734fbb42d6b14f9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2487,17 +2487,17 @@
         },
         {
             "name": "drupal/simple_sitemap",
-            "version": "2.11.0",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/simple_sitemap",
-                "reference": "8.x-2.11"
+                "reference": "8.x-2.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-2.11.zip",
-                "reference": "8.x-2.11",
-                "shasum": "d4b5f24c90d0636acd2c345eca566891194a7d0a"
+                "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-2.12.zip",
+                "reference": "8.x-2.12",
+                "shasum": "fe1c1a636adfba8358399a5a1ccdf20685066573"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2508,8 +2508,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.11",
-                    "datestamp": "1513130309",
+                    "version": "8.x-2.12",
+                    "datestamp": "1523202480",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
