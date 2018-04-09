@@ -45,7 +45,7 @@
         "drupal/paragraphs": "^1.2",
         "drupal/pathauto": "^1.1",
         "drupal/simple_block": "^1.0@beta",
-        "drupal/simple_sitemap": "^2.11",
+        "drupal/simple_sitemap": "^2.12",
         "drupal/video_embed_field": "^1.5",
         "drush/drush": "~8",
         "jackmoore/colorbox": "^1.6",
