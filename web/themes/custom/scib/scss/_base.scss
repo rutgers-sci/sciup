@@ -140,22 +140,21 @@
 
 /*layout*/
 .main-container {max-width: 1600px;}
-.col-sm-12 .region-content .field--name-body,
-.col-sm-12 .region-content .field--name-field-image-for-gallery,
+.page-node-type-gallery,
+.page-node-type-page .col-sm-12 .region-content .field--name-body,
 .col-sm-12 .region-content .contact-form,
-.col-sm-12 .region-content .page-header,
-.col-sm-12 .region-content .block-views {
+.page-node-type-page .col-sm-12 .region-content .page-header,
+.page-node-type-page .col-sm-12 .region-content .block-views {
   margin: 0 117px 20px;
   @include media("<widescreen") {
     margin: 0 0 10px;
   }
 }
-
-.col-sm-9 .region-content .field--name-body,
-.col-sm-9 .region-content .field--name-field-image-for-gallery,
+.page-node-type-article,
+.page-node-type-page .col-sm-9 .region-content .field--name-body,
 .col-sm-9 .region-content .contact-form,
-.col-sm-9 .region-content .page-header,
-.col-sm-9 .region-content .block-views {
+.page-node-type-page .col-sm-9 .region-content .page-header,
+.page-node-type-page .col-sm-9 .region-content .block-views {
   margin: 0 20px 20px;
   @include media("<widescreen") {
     margin: 0 0 10px;
