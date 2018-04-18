@@ -20,3 +20,5 @@ April 4: Colorbox - module and library (need both!)
 April 4: update scib with gallery scss, contact form, new screenshot
 
 April 16: update scib with article twig and article css
+
+April 18: Drupal 8.5.2 security release - ckeditor-related
