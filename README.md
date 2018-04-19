@@ -22,3 +22,5 @@ April 4: update scib with gallery scss, contact form, new screenshot
 April 16: update scib with article twig and article css
 
 April 18: Drupal 8.5.2 security release - ckeditor-related
+
+April 19: scib - article views and video max-size
