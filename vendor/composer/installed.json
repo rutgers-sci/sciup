@@ -5397,26 +5397,26 @@
     },
     {
         "name": "rutgers-sci/scib",
-        "version": "v1.04.3",
-        "version_normalized": "1.04.3.0",
+        "version": "v1.04.4",
+        "version_normalized": "1.04.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/rutgers-sci/scib.git",
-            "reference": "8e612665e056d83078d12028fcb23c9ffc64fabb"
+            "reference": "a37f3a32128bf1fd27eadf766baa7f84d9acfe7d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/8e612665e056d83078d12028fcb23c9ffc64fabb",
-            "reference": "8e612665e056d83078d12028fcb23c9ffc64fabb",
+            "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/a37f3a32128bf1fd27eadf766baa7f84d9acfe7d",
+            "reference": "a37f3a32128bf1fd27eadf766baa7f84d9acfe7d",
             "shasum": ""
         },
-        "time": "2018-04-16T15:10:39+00:00",
+        "time": "2018-04-19T13:40:37+00:00",
         "type": "drupal-theme-custom",
         "installation-source": "dist",
         "description": "sub theme of Bootstrap for Rutgers SCI sites",
         "homepage": "https://github.com/rutgers-sci/scib",
         "support": {
-            "source": "https://github.com/rutgers-sci/scib/tree/v1.04.3",
+            "source": "https://github.com/rutgers-sci/scib/tree/v1.04.4",
             "issues": "https://github.com/rutgers-sci/scib/issues"
         }
     },
