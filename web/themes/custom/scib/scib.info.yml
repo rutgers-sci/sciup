@@ -5,7 +5,7 @@ base theme: bootstrap
 name: 'scib - Rutgers SCI theme'
 description: 'Sub-theme of Bootstrap theme'
 package: 'Bootstrap'
-version: '1.04.3'
+version: '1.04.4'
 
 regions:
   topper: 'Topper Area'
