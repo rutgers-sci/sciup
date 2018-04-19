@@ -6929,6 +6929,10 @@ h1, h2, h3 {
 .contact-form, .user-login-form {
   max-width: 800px; }
 
+/*video*/
+.video-embed-field-responsive-video {
+  max-width: 600px; }
+
 /*BANNER - set up with features/banner_bundle_banner_block module
 ===========================*/
 #banner-area {
@@ -7070,5 +7074,29 @@ h1, h2, h3 {
 
 .field--label-inline .field--label {
   padding-right: 3px; }
+
+/*views for articles*/
+.carded .view-content {
+  display: flex;
+  flex-wrap: wrap; }
+
+.carded .views-row {
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 3px; }
+  .carded .views-row h2 {
+    font-size: 16px;
+    padding-right: 10px; }
+  .carded .views-row .field--type-text-with-summary {
+    padding-right: 10px; }
+  .carded .views-row:hover {
+    background-color: #eee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 1px solid gray;
+    overflow: hidden; }
+
+.page-node-type-page .col-sm-12 .region-content .carded .field--name-body {
+  margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
