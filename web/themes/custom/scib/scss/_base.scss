@@ -144,7 +144,8 @@
 .page-node-type-page .col-sm-12 .region-content .field--name-body,
 .col-sm-12 .region-content .contact-form,
 .page-node-type-page .col-sm-12 .region-content .page-header,
-.page-node-type-page .col-sm-12 .region-content .block-views {
+.page-node-type-page .col-sm-12 .region-content .block-views,
+.page-node-type-page .col-sm-12 .region-content .field--name-field-paragraph-modules .paragraph{
   margin: 0 117px 20px;
   @include media("<widescreen") {
     margin: 0 0 10px;
@@ -154,12 +155,18 @@
 .page-node-type-page .col-sm-9 .region-content .field--name-body,
 .col-sm-9 .region-content .contact-form,
 .page-node-type-page .col-sm-9 .region-content .page-header,
-.page-node-type-page .col-sm-9 .region-content .block-views {
+.page-node-type-page .col-sm-9 .region-content .block-views,
+.page-node-type-page .col-sm-9 .region-content .field--name-field-paragraph-modules .paragraph{
   margin: 0 20px 20px;
   @include media("<widescreen") {
     margin: 0 0 10px;
   }
 }
+
+/*all paragraphs have margins as above, except for card-row*/
+.page-node-type-page .col-sm-12 .region-content .field--name-field-paragraph-modules .paragraph.paragraph--type--card-row,
+.page-node-type-page .col-sm-9 .region-content .field--name-field-paragraph-modules .paragraph.paragraph--type--card-row
+{margin: 0 -15px;}
 
 /*breadcrumb*/
 .breadcrumb {

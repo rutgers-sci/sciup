@@ -25,3 +25,5 @@ April 18: Drupal 8.5.2 security release - ckeditor-related
 
 April 19: scib - article views and video max-size
 April 19: fixing scib
+
+April 23: pathauto; margins paragraphs; scib fixes
