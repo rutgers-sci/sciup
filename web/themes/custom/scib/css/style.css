@@ -6495,29 +6495,38 @@ p:last-child,
 .page-node-type-page .col-sm-12 .region-content .field--name-body,
 .col-sm-12 .region-content .contact-form,
 .page-node-type-page .col-sm-12 .region-content .page-header,
-.page-node-type-page .col-sm-12 .region-content .block-views {
+.page-node-type-page .col-sm-12 .region-content .block-views,
+.page-node-type-page .col-sm-12 .region-content .field--name-field-paragraph-modules .paragraph {
   margin: 0 117px 20px; }
   @media (max-width: 1249px) {
     .page-node-type-gallery,
     .page-node-type-page .col-sm-12 .region-content .field--name-body,
     .col-sm-12 .region-content .contact-form,
     .page-node-type-page .col-sm-12 .region-content .page-header,
-    .page-node-type-page .col-sm-12 .region-content .block-views {
+    .page-node-type-page .col-sm-12 .region-content .block-views,
+    .page-node-type-page .col-sm-12 .region-content .field--name-field-paragraph-modules .paragraph {
       margin: 0 0 10px; } }
 
 .page-node-type-article,
 .page-node-type-page .col-sm-9 .region-content .field--name-body,
 .col-sm-9 .region-content .contact-form,
 .page-node-type-page .col-sm-9 .region-content .page-header,
-.page-node-type-page .col-sm-9 .region-content .block-views {
+.page-node-type-page .col-sm-9 .region-content .block-views,
+.page-node-type-page .col-sm-9 .region-content .field--name-field-paragraph-modules .paragraph {
   margin: 0 20px 20px; }
   @media (max-width: 1249px) {
     .page-node-type-article,
     .page-node-type-page .col-sm-9 .region-content .field--name-body,
     .col-sm-9 .region-content .contact-form,
     .page-node-type-page .col-sm-9 .region-content .page-header,
-    .page-node-type-page .col-sm-9 .region-content .block-views {
+    .page-node-type-page .col-sm-9 .region-content .block-views,
+    .page-node-type-page .col-sm-9 .region-content .field--name-field-paragraph-modules .paragraph {
       margin: 0 0 10px; } }
+
+/*all paragraphs have margins as above, except for card-row*/
+.page-node-type-page .col-sm-12 .region-content .field--name-field-paragraph-modules .paragraph.paragraph--type--card-row,
+.page-node-type-page .col-sm-9 .region-content .field--name-field-paragraph-modules .paragraph.paragraph--type--card-row {
+  margin: 0 -15px; }
 
 /*breadcrumb*/
 .breadcrumb {
@@ -7089,12 +7098,13 @@ h1, h2, h3 {
     padding-right: 10px; }
   .carded .views-row .field--type-text-with-summary {
     padding-right: 10px; }
-  .carded .views-row:hover {
-    background-color: #eee;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border: 1px solid gray;
-    overflow: hidden; }
+  @media (min-width: 1025px) {
+    .carded .views-row:hover {
+      background-color: #eee;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      border: 1px solid gray;
+      overflow: hidden; } }
 
 .page-node-type-page .col-sm-12 .region-content .carded .field--name-body {
   margin: 0; }
