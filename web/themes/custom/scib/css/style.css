@@ -6677,6 +6677,13 @@ p:last-child,
     font-size: 14px;
     height: 122px; }
 
+/*videos in video collection*/
+.field--name-field-video-bundle .field--item {
+  float: left;
+  width: 350px;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
 /* faq bootstrap accordion */
 .panel-group {
   padding-top: 10px;
