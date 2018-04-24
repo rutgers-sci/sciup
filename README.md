@@ -28,3 +28,5 @@ April 19: fixing scib
 
 April 23: pathauto; margins paragraphs; scib fixes
 scib _paragraphs.scss fix
+
+April 24: video collections css - float videos left (in collection)
