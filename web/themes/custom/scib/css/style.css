@@ -6429,18 +6429,34 @@ p:last-child,
     text-decoration: underline;
     background-color: #D2204D;
     color: #fff; }
-  .region-navigation .site-branding__name {
-    float: right;
-    margin-top: 30px;
-    font-family: "Raleway",Helvetica,Arial,sans-serif; }
-    @media (max-width: 767px) {
-      .region-navigation .site-branding__name {
-        float: none;
-        margin: 0; }
-        .region-navigation .site-branding__name a.navbar-brand {
-          margin-bottom: 30px; } }
   .region-navigation .logo {
     padding-bottom: 20px; }
+    @media (max-width: 767px) {
+      .region-navigation .logo {
+        padding-bottom: 2px; } }
+  .region-navigation .site-branding__name {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-top: 30px;
+    font-family: "Raleway",Helvetica,Arial,sans-serif; }
+    .region-navigation .site-branding__name.slogged {
+      padding-top: 20px; }
+    @media (max-width: 991px) {
+      .region-navigation .site-branding__name {
+        clear: left;
+        margin-bottom: 30px;
+        padding-top: 0;
+        align-items: center; }
+        .region-navigation .site-branding__name.slogged {
+          padding-top: 0; } }
+    .region-navigation .site-branding__name .slogan {
+      color: #fff;
+      font-size: 14px;
+      padding: 0 15px; }
+      @media (max-width: 767px) {
+        .region-navigation .site-branding__name .slogan {
+          margin-top: 35px; } }
 
 @media (max-width: 767px) {
   .region-navigation .main-menu {
