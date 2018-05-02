@@ -78,19 +78,35 @@
     color: #fff;
   }
 
-  .site-branding__name {
-    float: right;
-    margin-top: 30px;
-    font-family: "Raleway",Helvetica,Arial,sans-serif;
+  .logo {padding-bottom: 20px;
     @include media("<tablet") {
-      float: none;
-      margin: 0;
-      a.navbar-brand {
-        margin-bottom: 30px;
+      padding-bottom: 2px;
+    }
+  }
+
+  .site-branding__name {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-top: 30px;
+    &.slogged { padding-top: 20px;}
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+    @include media("<tabletbig") {
+      clear: left;
+      margin-bottom: 30px;
+      padding-top: 0;
+      align-items: center;
+      &.slogged { padding-top: 0;}
+    }
+    .slogan {
+      color: #fff;
+      font-size: 14px;
+      padding: 0 15px;
+      @include media("<tablet") {
+        margin-top: 35px;
       }
     }
   }
-  .logo {padding-bottom: 20px;}
 }
 
 .region-navigation .main-menu {
