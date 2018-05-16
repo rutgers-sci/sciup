@@ -1,0 +1,11 @@
+<div{{attributes.addClass('card-narrow')}}>
+    <div><a href="{{ content.field_card_link[0]['#url'] }}">{{ content.field_card_image_narrow }}</a></div>
+    {% if content.field_card_text|render %}
+    <div class="card-narrow-content">
+        <h3><a href="{{ content.field_card_link[0]['#url'] }}">{{ content.field_card_title }}</a></h3>
+        <div>{{ content.field_card_text }}</div>
+    </div>
+    {% else %}
+        <h3><a href="{{ content.field_card_link[0]['#url'] }}">{{ content.field_card_title }}</a></h3>
+    {% endif %}
+</div>
