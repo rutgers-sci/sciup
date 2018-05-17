@@ -6696,7 +6696,8 @@ p:last-child,
       .card-narrow h3 a:hover {
         color: #fff; }
   .card-narrow .card-narrow-content {
-    height: 250px; }
+    height: 250px;
+    overflow: hidden; }
     .card-narrow .card-narrow-content p {
       padding: 10px; }
 
