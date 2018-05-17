@@ -35,4 +35,4 @@ April 25: drupal security release
 
 May 2: scib slogan
 
-May 16: scib narrow card - 4 across
+May 16: scib narrow card - 4 across, May 17 overflow:hidden for card-narrow-content
