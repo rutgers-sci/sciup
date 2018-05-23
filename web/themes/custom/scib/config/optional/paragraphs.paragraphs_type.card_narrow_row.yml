@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: card_narrow_row
+label: 'Card Narrow Row'
+icon_uuid: null
+description: 'for more than 3 cards use narrow cards'
+behavior_plugins: {  }
