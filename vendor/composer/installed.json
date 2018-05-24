@@ -3332,18 +3332,18 @@
     },
     {
         "name": "drupal/token",
-        "version": "1.1.0",
-        "version_normalized": "1.1.0.0",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
         "source": {
             "type": "git",
             "url": "https://git.drupal.org/project/token",
-            "reference": "8.x-1.1"
+            "reference": "8.x-1.2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/token-8.x-1.1.zip",
-            "reference": "8.x-1.1",
-            "shasum": "f11042a76bec028b0a86dc33cf6daa19eb55d545"
+            "url": "https://ftp.drupal.org/files/projects/token-8.x-1.2.zip",
+            "reference": "8.x-1.2",
+            "shasum": "223a826d2f0a8a5e1e75c178aa42e8346a6760be"
         },
         "require": {
             "drupal/core": "~8.0"
@@ -3354,8 +3354,8 @@
                 "dev-1.x": "1.x-dev"
             },
             "drupal": {
-                "version": "8.x-1.1",
-                "datestamp": "1513810384",
+                "version": "8.x-1.2",
+                "datestamp": "1527112080",
                 "security-coverage": {
                     "status": "covered",
                     "message": "Covered by Drupal's security advisory policy"
