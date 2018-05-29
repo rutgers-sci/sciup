@@ -40,3 +40,6 @@ May 16: scib narrow card - 4 across, May 17 overflow:hidden for card-narrow-cont
 May 23: scib narrow card goes in config for new sites
 
 May 24: token update
+
+May 29: module updates (token, paragraphs, entity ref rev)
+
