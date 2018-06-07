@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
 {
     public static $files = array (
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
@@ -60,6 +61,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
             'Symfony\\Polyfill\\Php70\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Iconv\\' => 23,
+            'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Validator\\' => 28,
@@ -209,6 +211,10 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Symfony\\Polyfill\\Iconv\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-iconv',
+        ),
+        'Symfony\\Polyfill\\Ctype\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
         'Symfony\\Component\\Yaml\\' => 
         array (
@@ -1588,9 +1594,10 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Doctrine\\Instantiator\\Instantiator' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php',
         'Doctrine\\Instantiator\\InstantiatorInterface' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/InstantiatorInterface.php',
         'Drupal' => __DIR__ . '/../..' . '/web/core/lib/Drupal.php',
+        'DrupalComposer\\DrupalScaffold\\CommandProvider' => __DIR__ . '/..' . '/drupal-composer/drupal-scaffold/src/CommandProvider.php',
+        'DrupalComposer\\DrupalScaffold\\DrupalScaffoldCommand' => __DIR__ . '/..' . '/drupal-composer/drupal-scaffold/src/DrupalScaffoldCommand.php',
         'DrupalComposer\\DrupalScaffold\\FileFetcher' => __DIR__ . '/..' . '/drupal-composer/drupal-scaffold/src/FileFetcher.php',
         'DrupalComposer\\DrupalScaffold\\Handler' => __DIR__ . '/..' . '/drupal-composer/drupal-scaffold/src/Handler.php',
-        'DrupalComposer\\DrupalScaffold\\InitialFileFetcher' => __DIR__ . '/..' . '/drupal-composer/drupal-scaffold/src/InitialFileFetcher.php',
         'DrupalComposer\\DrupalScaffold\\Plugin' => __DIR__ . '/..' . '/drupal-composer/drupal-scaffold/src/Plugin.php',
         'DrupalComposer\\DrupalScaffold\\PrestissimoFileFetcher' => __DIR__ . '/..' . '/drupal-composer/drupal-scaffold/src/PrestissimoFileFetcher.php',
         'DrupalFinder\\DrupalFinder' => __DIR__ . '/..' . '/webflo/drupal-finder/src/DrupalFinder.php',
@@ -2988,6 +2995,8 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Drupal\\Core\\Language\\LanguageManager' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Language/LanguageManager.php',
         'Drupal\\Core\\Language\\LanguageManagerInterface' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Language/LanguageManagerInterface.php',
         'Drupal\\Core\\Layout\\Annotation\\Layout' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/Annotation/Layout.php',
+        'Drupal\\Core\\Layout\\Icon\\IconBuilderInterface' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/Icon/IconBuilderInterface.php',
+        'Drupal\\Core\\Layout\\Icon\\SvgIconBuilder' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/Icon/SvgIconBuilder.php',
         'Drupal\\Core\\Layout\\LayoutDefault' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/LayoutDefault.php',
         'Drupal\\Core\\Layout\\LayoutDefinition' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/LayoutDefinition.php',
         'Drupal\\Core\\Layout\\LayoutInterface' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/LayoutInterface.php',
@@ -4574,6 +4583,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Psy\\CodeCleaner\\InstanceOfPass' => __DIR__ . '/..' . '/psy/psysh/src/CodeCleaner/InstanceOfPass.php',
         'Psy\\CodeCleaner\\LeavePsyshAlonePass' => __DIR__ . '/..' . '/psy/psysh/src/CodeCleaner/LeavePsyshAlonePass.php',
         'Psy\\CodeCleaner\\LegacyEmptyPass' => __DIR__ . '/..' . '/psy/psysh/src/CodeCleaner/LegacyEmptyPass.php',
+        'Psy\\CodeCleaner\\ListPass' => __DIR__ . '/..' . '/psy/psysh/src/CodeCleaner/ListPass.php',
         'Psy\\CodeCleaner\\LoopContextPass' => __DIR__ . '/..' . '/psy/psysh/src/CodeCleaner/LoopContextPass.php',
         'Psy\\CodeCleaner\\MagicConstantsPass' => __DIR__ . '/..' . '/psy/psysh/src/CodeCleaner/MagicConstantsPass.php',
         'Psy\\CodeCleaner\\NamespaceAwarePass' => __DIR__ . '/..' . '/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php',
@@ -4618,7 +4628,6 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Psy\\Command\\TraceCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/TraceCommand.php',
         'Psy\\Command\\WhereamiCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/WhereamiCommand.php',
         'Psy\\Command\\WtfCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/WtfCommand.php',
-        'Psy\\Compiler' => __DIR__ . '/..' . '/psy/psysh/src/Compiler.php',
         'Psy\\ConfigPaths' => __DIR__ . '/..' . '/psy/psysh/src/ConfigPaths.php',
         'Psy\\Configuration' => __DIR__ . '/..' . '/psy/psysh/src/Configuration.php',
         'Psy\\ConsoleColorFactory' => __DIR__ . '/..' . '/psy/psysh/src/ConsoleColorFactory.php',
@@ -4635,6 +4644,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Psy\\Exception\\TypeErrorException' => __DIR__ . '/..' . '/psy/psysh/src/Exception/TypeErrorException.php',
         'Psy\\ExecutionClosure' => __DIR__ . '/..' . '/psy/psysh/src/ExecutionClosure.php',
         'Psy\\ExecutionLoop' => __DIR__ . '/..' . '/psy/psysh/src/ExecutionLoop.php',
+        'Psy\\ExecutionLoopClosure' => __DIR__ . '/..' . '/psy/psysh/src/ExecutionLoopClosure.php',
         'Psy\\ExecutionLoop\\AbstractListener' => __DIR__ . '/..' . '/psy/psysh/src/ExecutionLoop/AbstractListener.php',
         'Psy\\ExecutionLoop\\Listener' => __DIR__ . '/..' . '/psy/psysh/src/ExecutionLoop/Listener.php',
         'Psy\\ExecutionLoop\\ProcessForker' => __DIR__ . '/..' . '/psy/psysh/src/ExecutionLoop/ProcessForker.php',
@@ -4657,7 +4667,9 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Psy\\Readline\\Libedit' => __DIR__ . '/..' . '/psy/psysh/src/Readline/Libedit.php',
         'Psy\\Readline\\Readline' => __DIR__ . '/..' . '/psy/psysh/src/Readline/Readline.php',
         'Psy\\Readline\\Transient' => __DIR__ . '/..' . '/psy/psysh/src/Readline/Transient.php',
+        'Psy\\Reflection\\ReflectionClassConstant' => __DIR__ . '/..' . '/psy/psysh/src/Reflection/ReflectionClassConstant.php',
         'Psy\\Reflection\\ReflectionConstant' => __DIR__ . '/..' . '/psy/psysh/src/Reflection/ReflectionConstant.php',
+        'Psy\\Reflection\\ReflectionConstant_' => __DIR__ . '/..' . '/psy/psysh/src/Reflection/ReflectionConstant_.php',
         'Psy\\Reflection\\ReflectionLanguageConstruct' => __DIR__ . '/..' . '/psy/psysh/src/Reflection/ReflectionLanguageConstruct.php',
         'Psy\\Reflection\\ReflectionLanguageConstructParameter' => __DIR__ . '/..' . '/psy/psysh/src/Reflection/ReflectionLanguageConstructParameter.php',
         'Psy\\Shell' => __DIR__ . '/..' . '/psy/psysh/src/Shell.php',
@@ -5183,6 +5195,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Symfony\\Component\\DependencyInjection\\Loader\\Configurator\\Traits\\TagTrait' => __DIR__ . '/..' . '/symfony/dependency-injection/Loader/Configurator/Traits/TagTrait.php',
         'Symfony\\Component\\DependencyInjection\\Loader\\DirectoryLoader' => __DIR__ . '/..' . '/symfony/dependency-injection/Loader/DirectoryLoader.php',
         'Symfony\\Component\\DependencyInjection\\Loader\\FileLoader' => __DIR__ . '/..' . '/symfony/dependency-injection/Loader/FileLoader.php',
+        'Symfony\\Component\\DependencyInjection\\Loader\\GlobFileLoader' => __DIR__ . '/..' . '/symfony/dependency-injection/Loader/GlobFileLoader.php',
         'Symfony\\Component\\DependencyInjection\\Loader\\IniFileLoader' => __DIR__ . '/..' . '/symfony/dependency-injection/Loader/IniFileLoader.php',
         'Symfony\\Component\\DependencyInjection\\Loader\\PhpFileLoader' => __DIR__ . '/..' . '/symfony/dependency-injection/Loader/PhpFileLoader.php',
         'Symfony\\Component\\DependencyInjection\\Loader\\ProtectedPhpFileLoader' => __DIR__ . '/..' . '/symfony/dependency-injection/Loader/PhpFileLoader.php',
@@ -5496,6 +5509,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Symfony\\Component\\Routing\\Loader\\Configurator\\Traits\\RouteTrait' => __DIR__ . '/..' . '/symfony/routing/Loader/Configurator/Traits/RouteTrait.php',
         'Symfony\\Component\\Routing\\Loader\\DependencyInjection\\ServiceRouterLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/DependencyInjection/ServiceRouterLoader.php',
         'Symfony\\Component\\Routing\\Loader\\DirectoryLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/DirectoryLoader.php',
+        'Symfony\\Component\\Routing\\Loader\\GlobFileLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/GlobFileLoader.php',
         'Symfony\\Component\\Routing\\Loader\\ObjectRouteLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/ObjectRouteLoader.php',
         'Symfony\\Component\\Routing\\Loader\\PhpFileLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/PhpFileLoader.php',
         'Symfony\\Component\\Routing\\Loader\\ProtectedPhpFileLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/PhpFileLoader.php',
@@ -5882,6 +5896,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Symfony\\Component\\Yaml\\Tag\\TaggedValue' => __DIR__ . '/..' . '/symfony/yaml/Tag/TaggedValue.php',
         'Symfony\\Component\\Yaml\\Unescaper' => __DIR__ . '/..' . '/symfony/yaml/Unescaper.php',
         'Symfony\\Component\\Yaml\\Yaml' => __DIR__ . '/..' . '/symfony/yaml/Yaml.php',
+        'Symfony\\Polyfill\\Ctype\\Ctype' => __DIR__ . '/..' . '/symfony/polyfill-ctype/Ctype.php',
         'Symfony\\Polyfill\\Iconv\\Iconv' => __DIR__ . '/..' . '/symfony/polyfill-iconv/Iconv.php',
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Symfony\\Polyfill\\Php70\\Php70' => __DIR__ . '/..' . '/symfony/polyfill-php70/Php70.php',
