@@ -44,3 +44,5 @@ May 24: token update
 May 29: module updates (token, paragraphs, entity ref rev)
 password experiment
 
+June 7: drupal update
+
