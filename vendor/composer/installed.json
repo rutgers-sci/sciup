@@ -5403,31 +5403,6 @@
         ]
     },
     {
-        "name": "rutgers-sci/scib",
-        "version": "v1.05.4",
-        "version_normalized": "1.05.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/rutgers-sci/scib.git",
-            "reference": "688957dbcf93ec88440f80cc231e345ddfe8562c"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/688957dbcf93ec88440f80cc231e345ddfe8562c",
-            "reference": "688957dbcf93ec88440f80cc231e345ddfe8562c",
-            "shasum": ""
-        },
-        "time": "2018-05-23T14:52:15+00:00",
-        "type": "drupal-theme-custom",
-        "installation-source": "dist",
-        "description": "sub theme of Bootstrap for Rutgers SCI sites",
-        "homepage": "https://github.com/rutgers-sci/scib",
-        "support": {
-            "source": "https://github.com/rutgers-sci/scib/tree/v1.05.4",
-            "issues": "https://github.com/rutgers-sci/scib/issues"
-        }
-    },
-    {
         "name": "rvtraveller/qs-composer-installer",
         "version": "1.1",
         "version_normalized": "1.1.0.0",
@@ -8200,5 +8175,30 @@
             "stdlib",
             "zf2"
         ]
+    },
+    {
+        "name": "rutgers-sci/scib",
+        "version": "v1.05.6",
+        "version_normalized": "1.05.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rutgers-sci/scib.git",
+            "reference": "5c247b81559bb0f7853aaa1b58266251b0b4ab2a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/5c247b81559bb0f7853aaa1b58266251b0b4ab2a",
+            "reference": "5c247b81559bb0f7853aaa1b58266251b0b4ab2a",
+            "shasum": ""
+        },
+        "time": "2018-07-02T16:23:09+00:00",
+        "type": "drupal-theme-custom",
+        "installation-source": "dist",
+        "description": "sub theme of Bootstrap for Rutgers SCI sites",
+        "homepage": "https://github.com/rutgers-sci/scib",
+        "support": {
+            "source": "https://github.com/rutgers-sci/scib/tree/v1.05.6",
+            "issues": "https://github.com/rutgers-sci/scib/issues"
+        }
     }
 ]

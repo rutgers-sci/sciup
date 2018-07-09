@@ -6524,7 +6524,11 @@ p:last-child,
       margin: 0 0 10px; } }
 
 .page-node-type-article,
+.page-node-type-judge,
+.page-node-type-gallery,
+.page-node-type-instructor,
 .page-node-type-page .col-sm-9 .region-content .field--name-body,
+.page-node-type-page .col-sm-9 .region-content .field--name-field-video-for-page,
 .col-sm-9 .region-content .contact-form,
 .page-node-type-page .col-sm-9 .region-content .page-header,
 .page-node-type-page .col-sm-9 .region-content .block-views,
@@ -6532,7 +6536,11 @@ p:last-child,
   margin: 0 20px 20px; }
   @media (max-width: 1249px) {
     .page-node-type-article,
+    .page-node-type-judge,
+    .page-node-type-gallery,
+    .page-node-type-instructor,
     .page-node-type-page .col-sm-9 .region-content .field--name-body,
+    .page-node-type-page .col-sm-9 .region-content .field--name-field-video-for-page,
     .col-sm-9 .region-content .contact-form,
     .page-node-type-page .col-sm-9 .region-content .page-header,
     .page-node-type-page .col-sm-9 .region-content .block-views,
@@ -6951,6 +6959,23 @@ h1, h2, h3 {
 .page .field--name-field-image {
   float: right;
   padding: 0 20px; }
+  @media (max-width: 767px) {
+    .page .field--name-field-image {
+      float: none; } }
+
+/*iti showcase*/
+.judge .field--name-field-pic, .instructor .field--name-field-pic {
+  float: left;
+  padding: 0 40px 60px 0; }
+  @media (max-width: 767px) {
+    .judge .field--name-field-pic, .instructor .field--name-field-pic {
+      float: none;
+      padding: 0 10px; } }
+
+.judge h2 {
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 5px; }
 
 /*teams - used for CISSL*/
 .team .views-row {
