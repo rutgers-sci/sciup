@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "a085cbe249ca2f00f3e2e120363e9b5c",
@@ -3622,26 +3622,26 @@
         },
         {
             "name": "rutgers-sci/scib",
-            "version": "v1.05.4",
+            "version": "v1.05.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rutgers-sci/scib.git",
-                "reference": "688957dbcf93ec88440f80cc231e345ddfe8562c"
+                "reference": "5c247b81559bb0f7853aaa1b58266251b0b4ab2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/688957dbcf93ec88440f80cc231e345ddfe8562c",
-                "reference": "688957dbcf93ec88440f80cc231e345ddfe8562c",
+                "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/5c247b81559bb0f7853aaa1b58266251b0b4ab2a",
+                "reference": "5c247b81559bb0f7853aaa1b58266251b0b4ab2a",
                 "shasum": ""
             },
             "type": "drupal-theme-custom",
             "description": "sub theme of Bootstrap for Rutgers SCI sites",
             "homepage": "https://github.com/rutgers-sci/scib",
             "support": {
-                "source": "https://github.com/rutgers-sci/scib/tree/v1.05.4",
+                "source": "https://github.com/rutgers-sci/scib/tree/v1.05.6",
                 "issues": "https://github.com/rutgers-sci/scib/issues"
             },
-            "time": "2018-05-23T14:52:15+00:00"
+            "time": "2018-07-02T16:23:09+00:00"
         },
         {
             "name": "rvtraveller/qs-composer-installer",

@@ -12,7 +12,22 @@ h1, h2, h3 {font-family: "Raleway",Helvetica,Arial,sans-serif;}
 .views-row {clear: left;}
 
 .person .field--name-field-image {float: left; padding: 0 120px;}
-.page .field--name-field-image {float: right; padding: 0 20px;}
+.page .field--name-field-image {float: right; padding: 0 20px;
+  @include media("<tablet") {
+    float: none;
+  }
+}
+
+/*iti showcase*/
+.judge .field--name-field-pic, .instructor .field--name-field-pic {float: left; padding: 0 40px 60px 0;
+  @include media("<tablet") {
+    float: none;
+    padding: 0 10px;
+  }
+}
+
+.judge h2 {font-size: 22px; margin-top: 0; margin-bottom: 5px;}
+
 
 /*teams - used for CISSL*/
 .team .views-row {
