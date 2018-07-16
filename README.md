@@ -50,5 +50,7 @@ July 5: drupal update 8.5.5
 
 July 9: scib theme change
 
+July 16: google analytics
+
 
 
