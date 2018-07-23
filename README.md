@@ -52,5 +52,5 @@ July 9: scib theme change
 
 July 16: google analytics
 
-
+July 23: Bootstrap theme update - vertical-tabs.js, attributes.js
 
