@@ -54,3 +54,4 @@ July 16: google analytics
 
 July 23: Bootstrap theme update - vertical-tabs.js, attributes.js
 
+July 24: Add Redirect module
