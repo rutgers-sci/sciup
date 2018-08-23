@@ -58,3 +58,5 @@ July 24: Add Redirect module
 
 Aug. 1: Drupal security release
 
+Aug 23: metatag update
+
