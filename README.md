@@ -62,3 +62,6 @@ Aug 23: metatag update
 
 Sep 11: metatag, pathauto, token updates
 
+Sep 11: Drupal 8.6.1 update
+
+
