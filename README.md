@@ -60,3 +60,5 @@ Aug. 1: Drupal security release
 
 Aug 23: metatag update
 
+Sep 11: metatag, pathauto, token updates
+
