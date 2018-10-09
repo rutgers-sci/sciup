@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
+class ComposerStaticInit46c161f6cf3c6ae61ce6f4d93a584f63
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -16,6 +16,14 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
+        'cf97c57bfe0f23854afd2f3818abb7a0' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/create_uploaded_file.php',
+        '9bf37a3d0dad93e29cb4e1b1bfab04e9' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_headers_from_sapi.php',
+        'ce70dccb4bcc2efc6e94d2ee526e6972' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_method_from_sapi.php',
+        'f86420df471f14d568bfcb71e271b523' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_protocol_version_from_sapi.php',
+        'b87481e008a3700344428ae089e7f9e5' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_uri_from_sapi.php',
+        '0b0974a5566a1077e4f2e111341112c1' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_server.php',
+        '1ca3bc274755662169f9629d5412a1da' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_uploaded_files.php',
+        '40360c0b9b437e69bcbb7f1349ce029e' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/parse_cookie_header.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '5a12a5271c58108e0aa33355e6ac54ea' => __DIR__ . '/..' . '/drupal/console-core/src/functions.php',
     );
@@ -48,7 +56,6 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         ),
         'W' => 
         array (
-            'Wikimedia\\Composer\\' => 19,
             'Webmozart\\PathUtil\\' => 19,
             'Webmozart\\Assert\\' => 17,
         ),
@@ -98,6 +105,10 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         array (
             'Masterminds\\' => 12,
         ),
+        'J' => 
+        array (
+            'JakubOnderka\\PhpConsoleColor\\' => 29,
+        ),
         'I' => 
         array (
             'Interop\\Container\\' => 18,
@@ -119,7 +130,9 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
             'Drupal\\Component\\' => 17,
             'DrupalComposer\\DrupalScaffold\\' => 30,
             'Doctrine\\Instantiator\\' => 22,
+            'Doctrine\\Common\\Inflector\\' => 26,
             'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
         ),
         'C' => 
@@ -183,10 +196,6 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'XdgBaseDir\\' => 
         array (
             0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
-        ),
-        'Wikimedia\\Composer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src',
         ),
         'Webmozart\\PathUtil\\' => 
         array (
@@ -332,6 +341,10 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
+        'JakubOnderka\\PhpConsoleColor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src',
+        ),
         'Interop\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
@@ -384,9 +397,17 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
+        'Doctrine\\Common\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
+        ),
         'Doctrine\\Common\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
         ),
         'Doctrine\\Common\\' => 
         array (
@@ -470,10 +491,6 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
             array (
                 0 => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src',
             ),
-            'JakubOnderka\\PhpConsoleColor' => 
-            array (
-                0 => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src',
-            ),
         ),
         'E' => 
         array (
@@ -516,17 +533,9 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
             array (
                 0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
             ),
-            'Doctrine\\Common\\Inflector\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
-            ),
             'Doctrine\\Common\\Collections\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/collections/lib',
-            ),
-            'Doctrine\\Common\\Annotations\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/annotations/lib',
             ),
             'Dflydev\\PlaceholderResolver' => 
             array (
@@ -828,6 +837,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Behat\\Behat\\Output\\Node\\EventListener\\Flow\\FireOnlySiblingsListener' => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat/Output/Node/EventListener/Flow/FireOnlySiblingsListener.php',
         'Behat\\Behat\\Output\\Node\\EventListener\\Flow\\FirstBackgroundFiresFirstListener' => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat/Output/Node/EventListener/Flow/FirstBackgroundFiresFirstListener.php',
         'Behat\\Behat\\Output\\Node\\EventListener\\Flow\\OnlyFirstBackgroundFiresListener' => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat/Output/Node/EventListener/Flow/OnlyFirstBackgroundFiresListener.php',
+        'Behat\\Behat\\Output\\Node\\EventListener\\JUnit\\JUnitDurationListener' => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat/Output/Node/EventListener/JUnit/JUnitDurationListener.php',
         'Behat\\Behat\\Output\\Node\\EventListener\\JUnit\\JUnitFeatureElementListener' => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat/Output/Node/EventListener/JUnit/JUnitFeatureElementListener.php',
         'Behat\\Behat\\Output\\Node\\EventListener\\JUnit\\JUnitOutlineStoreListener' => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat/Output/Node/EventListener/JUnit/JUnitOutlineStoreListener.php',
         'Behat\\Behat\\Output\\Node\\EventListener\\Statistics\\HookStatsListener' => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat/Output/Node/EventListener/Statistics/HookStatsListener.php',
@@ -1239,6 +1249,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Composer\\Installers\\BonefishInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/BonefishInstaller.php',
         'Composer\\Installers\\CakePHPInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/CakePHPInstaller.php',
         'Composer\\Installers\\ChefInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ChefInstaller.php',
+        'Composer\\Installers\\CiviCrmInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/CiviCrmInstaller.php',
         'Composer\\Installers\\ClanCatsFrameworkInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ClanCatsFrameworkInstaller.php',
         'Composer\\Installers\\CockpitInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/CockpitInstaller.php',
         'Composer\\Installers\\CodeIgniterInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/CodeIgniterInstaller.php',
@@ -3855,8 +3866,8 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Interop\\Container\\ContainerInterface' => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container/ContainerInterface.php',
         'Interop\\Container\\Exception\\ContainerException' => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container/Exception/ContainerException.php',
         'Interop\\Container\\Exception\\NotFoundException' => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container/Exception/NotFoundException.php',
-        'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/ConsoleColor.php',
-        'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/InvalidStyleException.php',
+        'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/ConsoleColor.php',
+        'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
         'Masterminds\\HTML5' => __DIR__ . '/..' . '/masterminds/html5/src/HTML5.php',
         'Masterminds\\HTML5\\Elements' => __DIR__ . '/..' . '/masterminds/html5/src/HTML5/Elements.php',
@@ -4296,6 +4307,8 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'PhpParser\\Builder\\Namespace_' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/Namespace_.php',
         'PhpParser\\Builder\\Param' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/Param.php',
         'PhpParser\\Builder\\Property' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/Property.php',
+        'PhpParser\\Builder\\TraitUse' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/TraitUse.php',
+        'PhpParser\\Builder\\TraitUseAdaptation' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/TraitUseAdaptation.php',
         'PhpParser\\Builder\\Trait_' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/Trait_.php',
         'PhpParser\\Builder\\Use_' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder/Use_.php',
         'PhpParser\\Comment' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Comment.php',
@@ -4528,6 +4541,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Prophecy\\Doubler\\ClassPatch\\ProphecySubjectPatch' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/ProphecySubjectPatch.php',
         'Prophecy\\Doubler\\ClassPatch\\ReflectionClassNewInstancePatch' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/ReflectionClassNewInstancePatch.php',
         'Prophecy\\Doubler\\ClassPatch\\SplFileInfoPatch' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/SplFileInfoPatch.php',
+        'Prophecy\\Doubler\\ClassPatch\\ThrowablePatch' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/ThrowablePatch.php',
         'Prophecy\\Doubler\\ClassPatch\\TraversablePatch' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/TraversablePatch.php',
         'Prophecy\\Doubler\\DoubleInterface' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Doubler/DoubleInterface.php',
         'Prophecy\\Doubler\\Doubler' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Doubler/Doubler.php',
@@ -4793,10 +4807,13 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Stecman\\Component\\Symfony\\Console\\BashCompletion\\HookFactory' => __DIR__ . '/..' . '/stecman/symfony-console-completion/src/HookFactory.php',
         'Symfony\\Bridge\\PsrHttpMessage\\Factory\\DiactorosFactory' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/DiactorosFactory.php',
         'Symfony\\Bridge\\PsrHttpMessage\\Factory\\HttpFoundationFactory' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/HttpFoundationFactory.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Factory\\PsrHttpFactory' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/PsrHttpFactory.php',
         'Symfony\\Bridge\\PsrHttpMessage\\HttpFoundationFactoryInterface' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/HttpFoundationFactoryInterface.php',
         'Symfony\\Bridge\\PsrHttpMessage\\HttpMessageFactoryInterface' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/HttpMessageFactoryInterface.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Factory\\AbstractHttpMessageFactoryTest' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Factory/AbstractHttpMessageFactoryTest.php',
         'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Factory\\DiactorosFactoryTest' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Factory/DiactorosFactoryTest.php',
         'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Factory\\HttpFoundationFactoryTest' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Factory/HttpFoundationFactoryTest.php',
+        'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Factory\\PsrHttpFactoryTest' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Factory/PsrHttpFactoryTest.php',
         'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Fixtures\\Message' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Fixtures/Message.php',
         'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Fixtures\\Response' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Fixtures/Response.php',
         'Symfony\\Bridge\\PsrHttpMessage\\Tests\\Fixtures\\ServerRequest' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Tests/Fixtures/ServerRequest.php',
@@ -6370,13 +6387,6 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Webmozart\\PathUtil\\Path' => __DIR__ . '/..' . '/webmozart/path-util/src/Path.php',
         'Webmozart\\PathUtil\\Url' => __DIR__ . '/..' . '/webmozart/path-util/src/Url.php',
-        'Wikimedia\\Composer\\Logger' => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src/Logger.php',
-        'Wikimedia\\Composer\\MergePlugin' => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src/MergePlugin.php',
-        'Wikimedia\\Composer\\Merge\\ExtraPackage' => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src/Merge/ExtraPackage.php',
-        'Wikimedia\\Composer\\Merge\\MissingFileException' => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src/Merge/MissingFileException.php',
-        'Wikimedia\\Composer\\Merge\\NestedArray' => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src/Merge/NestedArray.php',
-        'Wikimedia\\Composer\\Merge\\PluginState' => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src/Merge/PluginState.php',
-        'Wikimedia\\Composer\\Merge\\StabilityFlags' => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src/Merge/StabilityFlags.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
         'Zend\\Diactoros\\AbstractSerializer' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/AbstractSerializer.php',
         'Zend\\Diactoros\\CallbackStream' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/CallbackStream.php',
@@ -6403,6 +6413,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Zend\\Diactoros\\Response\\SapiStreamEmitter' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/Response/SapiStreamEmitter.php',
         'Zend\\Diactoros\\Response\\Serializer' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/Response/Serializer.php',
         'Zend\\Diactoros\\Response\\TextResponse' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/Response/TextResponse.php',
+        'Zend\\Diactoros\\Response\\XmlResponse' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/Response/XmlResponse.php',
         'Zend\\Diactoros\\Server' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/Server.php',
         'Zend\\Diactoros\\ServerRequest' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/ServerRequest.php',
         'Zend\\Diactoros\\ServerRequestFactory' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/ServerRequestFactory.php',
@@ -6459,6 +6470,8 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Zend\\Feed\\Reader\\Extension\\CreativeCommons\\Feed' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Reader/Extension/CreativeCommons/Feed.php',
         'Zend\\Feed\\Reader\\Extension\\DublinCore\\Entry' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Reader/Extension/DublinCore/Entry.php',
         'Zend\\Feed\\Reader\\Extension\\DublinCore\\Feed' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Reader/Extension/DublinCore/Feed.php',
+        'Zend\\Feed\\Reader\\Extension\\GooglePlayPodcast\\Entry' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Reader/Extension/GooglePlayPodcast/Entry.php',
+        'Zend\\Feed\\Reader\\Extension\\GooglePlayPodcast\\Feed' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Reader/Extension/GooglePlayPodcast/Feed.php',
         'Zend\\Feed\\Reader\\Extension\\Podcast\\Entry' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Reader/Extension/Podcast/Entry.php',
         'Zend\\Feed\\Reader\\Extension\\Podcast\\Feed' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Reader/Extension/Podcast/Feed.php',
         'Zend\\Feed\\Reader\\Extension\\Slash\\Entry' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Reader/Extension/Slash/Entry.php',
@@ -6497,6 +6510,10 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Zend\\Feed\\Writer\\Extension\\Content\\Renderer\\Entry' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Writer/Extension/Content/Renderer/Entry.php',
         'Zend\\Feed\\Writer\\Extension\\DublinCore\\Renderer\\Entry' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Writer/Extension/DublinCore/Renderer/Entry.php',
         'Zend\\Feed\\Writer\\Extension\\DublinCore\\Renderer\\Feed' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Writer/Extension/DublinCore/Renderer/Feed.php',
+        'Zend\\Feed\\Writer\\Extension\\GooglePlayPodcast\\Entry' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Writer/Extension/GooglePlayPodcast/Entry.php',
+        'Zend\\Feed\\Writer\\Extension\\GooglePlayPodcast\\Feed' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Writer/Extension/GooglePlayPodcast/Feed.php',
+        'Zend\\Feed\\Writer\\Extension\\GooglePlayPodcast\\Renderer\\Entry' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Writer/Extension/GooglePlayPodcast/Renderer/Entry.php',
+        'Zend\\Feed\\Writer\\Extension\\GooglePlayPodcast\\Renderer\\Feed' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Writer/Extension/GooglePlayPodcast/Renderer/Feed.php',
         'Zend\\Feed\\Writer\\Extension\\ITunes\\Entry' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Writer/Extension/ITunes/Entry.php',
         'Zend\\Feed\\Writer\\Extension\\ITunes\\Feed' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Writer/Extension/ITunes/Feed.php',
         'Zend\\Feed\\Writer\\Extension\\ITunes\\Renderer\\Entry' => __DIR__ . '/..' . '/zendframework/zend-feed/src/Writer/Extension/ITunes/Renderer/Entry.php',
@@ -6531,6 +6548,7 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
         'Zend\\Stdlib\\ArrayUtils\\MergeRemoveKey' => __DIR__ . '/..' . '/zendframework/zend-stdlib/src/ArrayUtils/MergeRemoveKey.php',
         'Zend\\Stdlib\\ArrayUtils\\MergeReplaceKey' => __DIR__ . '/..' . '/zendframework/zend-stdlib/src/ArrayUtils/MergeReplaceKey.php',
         'Zend\\Stdlib\\ArrayUtils\\MergeReplaceKeyInterface' => __DIR__ . '/..' . '/zendframework/zend-stdlib/src/ArrayUtils/MergeReplaceKeyInterface.php',
+        'Zend\\Stdlib\\ConsoleHelper' => __DIR__ . '/..' . '/zendframework/zend-stdlib/src/ConsoleHelper.php',
         'Zend\\Stdlib\\DispatchableInterface' => __DIR__ . '/..' . '/zendframework/zend-stdlib/src/DispatchableInterface.php',
         'Zend\\Stdlib\\ErrorHandler' => __DIR__ . '/..' . '/zendframework/zend-stdlib/src/ErrorHandler.php',
         'Zend\\Stdlib\\Exception\\BadMethodCallException' => __DIR__ . '/..' . '/zendframework/zend-stdlib/src/Exception/BadMethodCallException.php',
@@ -6711,10 +6729,10 @@ class ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit0bec87c84bfbcdec2953c4c7ccd78ca9::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit46c161f6cf3c6ae61ce6f4d93a584f63::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit46c161f6cf3c6ae61ce6f4d93a584f63::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit46c161f6cf3c6ae61ce6f4d93a584f63::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit46c161f6cf3c6ae61ce6f4d93a584f63::$classMap;
 
         }, null, ClassLoader::class);
     }
