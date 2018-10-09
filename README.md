@@ -66,5 +66,8 @@ Sep 11: Drupal 8.6.1 update
 
 Sep 11: Drupal 8.6.1 update (2nd try)
 
+Oct 9: Drupal 8.6.1 - need to update the composer.json for Drupal Core and for webflo
+
+
 
 
