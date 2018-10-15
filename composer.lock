@@ -2020,17 +2020,17 @@
         },
         {
             "name": "drupal/entity_reference_revisions",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/entity_reference_revisions",
-                "reference": "8.x-1.5"
+                "reference": "8.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/entity_reference_revisions-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "417250a105afe8febef508c7f981d02cb138752d"
+                "url": "https://ftp.drupal.org/files/projects/entity_reference_revisions-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "82d515de04d3a75fb677ed82241a6aff3f54ab47"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2044,8 +2044,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1527243208",
+                    "version": "8.x-1.6",
+                    "datestamp": "1539588781",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3684,26 +3684,26 @@
         },
         {
             "name": "rutgers-sci/scib",
-            "version": "v1.05.7",
+            "version": "v1.05.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rutgers-sci/scib.git",
-                "reference": "a51020649610538c41dffaa1ab6b44015c8567b3"
+                "reference": "2ddc20994ee93a5ba616d1a026f0719a09e14593"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/a51020649610538c41dffaa1ab6b44015c8567b3",
-                "reference": "a51020649610538c41dffaa1ab6b44015c8567b3",
+                "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/2ddc20994ee93a5ba616d1a026f0719a09e14593",
+                "reference": "2ddc20994ee93a5ba616d1a026f0719a09e14593",
                 "shasum": ""
             },
             "type": "drupal-theme-custom",
             "description": "sub theme of Bootstrap for Rutgers SCI sites",
             "homepage": "https://github.com/rutgers-sci/scib",
             "support": {
-                "source": "https://github.com/rutgers-sci/scib/tree/v1.05.7",
+                "source": "https://github.com/rutgers-sci/scib/tree/v1.05.8",
                 "issues": "https://github.com/rutgers-sci/scib/issues"
             },
-            "time": "2018-10-11T11:18:56+00:00"
+            "time": "2018-10-15T12:37:05+00:00"
         },
         {
             "name": "rvtraveller/qs-composer-installer",
