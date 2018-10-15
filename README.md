@@ -70,6 +70,7 @@ Oct 9: Drupal 8.6.1 - Drupal Core and webflo - deleted vendor, composer.lock the
 
 Oct 11: google plus off scib
 
+Oct 15: entity ref rev module update  
 
 
 
