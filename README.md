@@ -72,6 +72,8 @@ Oct 11: google plus off scib
 
 Oct 15: entity ref rev module update  
 
+Oct 22: Drupal update
+
 
 
 
