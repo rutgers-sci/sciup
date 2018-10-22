@@ -3037,6 +3037,8 @@ class ComposerStaticInit46c161f6cf3c6ae61ce6f4d93a584f63
         'Drupal\\Core\\Language\\LanguageManager' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Language/LanguageManager.php',
         'Drupal\\Core\\Language\\LanguageManagerInterface' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Language/LanguageManagerInterface.php',
         'Drupal\\Core\\Layout\\Annotation\\Layout' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/Annotation/Layout.php',
+        'Drupal\\Core\\Layout\\Icon\\IconBuilderInterface' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/Icon/IconBuilderInterface.php',
+        'Drupal\\Core\\Layout\\Icon\\SvgIconBuilder' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/Icon/SvgIconBuilder.php',
         'Drupal\\Core\\Layout\\LayoutDefault' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/LayoutDefault.php',
         'Drupal\\Core\\Layout\\LayoutDefinition' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/LayoutDefinition.php',
         'Drupal\\Core\\Layout\\LayoutInterface' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Layout/LayoutInterface.php',
