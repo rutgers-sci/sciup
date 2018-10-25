@@ -5,6 +5,10 @@
   }
 }
 
+@include media(">=widescreen")  {
+  header.navbar {padding: 20px $sitepad 0}
+}
+
 .navbar-default {
   background-color: $red;
   padding-top: 20px;
@@ -21,6 +25,9 @@
 .region-topper {
   background-color: #030303;
   height: 35px;
+  @include media(">=widescreen")  {
+    padding-left: 110px;
+    }
   .search-area{
     float: right;
     width: 30px;
@@ -200,6 +207,16 @@
 .footer {background-color: $darkgray; color: #fff;}
 .footright {float: right; width: 350px;}
 .footcontainer {padding-bottom: 2px;}
+.footer {
+  margin-top: 45px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  border-top: 1px solid #E5E5E5; 
+  @include media(">=widescreen")  {
+    padding-left: $sitepad;
+    padding-right: 0;
+  }
+}
 
 #copyright {font-size: 12px;}
 
