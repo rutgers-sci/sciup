@@ -2456,17 +2456,17 @@
         },
         {
             "name": "drupal/redirect",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/redirect",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "ac503fbfbd15523c65f38d8b326e5f2159683cdb"
+                "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "3f9620d186e25f36ac56755979932b8ea965b8c7"
             },
             "require": {
                 "drupal/core": "~8"
@@ -2477,8 +2477,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1525419785",
+                    "version": "8.x-1.3",
+                    "datestamp": "1539682684",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2497,6 +2497,10 @@
                 {
                     "name": "Dave Reid",
                     "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "pifagor",
+                    "homepage": "https://www.drupal.org/user/2375692"
                 }
             ],
             "description": "Allows users to redirect from old URLs to new URLs.",
@@ -3684,26 +3688,26 @@
         },
         {
             "name": "rutgers-sci/scib",
-            "version": "v1.05.8",
+            "version": "v1.05.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rutgers-sci/scib.git",
-                "reference": "2ddc20994ee93a5ba616d1a026f0719a09e14593"
+                "reference": "103c12e31385653bb33aecb36726db0dcf616e7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/2ddc20994ee93a5ba616d1a026f0719a09e14593",
-                "reference": "2ddc20994ee93a5ba616d1a026f0719a09e14593",
+                "url": "https://api.github.com/repos/rutgers-sci/scib/zipball/103c12e31385653bb33aecb36726db0dcf616e7a",
+                "reference": "103c12e31385653bb33aecb36726db0dcf616e7a",
                 "shasum": ""
             },
             "type": "drupal-theme-custom",
             "description": "sub theme of Bootstrap for Rutgers SCI sites",
             "homepage": "https://github.com/rutgers-sci/scib",
             "support": {
-                "source": "https://github.com/rutgers-sci/scib/tree/v1.05.8",
+                "source": "https://github.com/rutgers-sci/scib/tree/v1.05.9",
                 "issues": "https://github.com/rutgers-sci/scib/issues"
             },
-            "time": "2018-10-15T12:37:05+00:00"
+            "time": "2018-10-24T20:25:27+00:00"
         },
         {
             "name": "rvtraveller/qs-composer-installer",
