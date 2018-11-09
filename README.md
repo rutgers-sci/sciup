@@ -76,6 +76,8 @@ Oct 22: Drupal 8.6.2 security update
 
 Oct 23: Redirect module update
 
+Nov 09: Paragraphs Module security update
+
 
 
 
