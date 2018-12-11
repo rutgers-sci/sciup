@@ -80,6 +80,9 @@ Nov 09: Paragraphs Module security update
 
 Nov 09: Drupal 8.6.3 update
 
+Dec 11: Drupal 8.6.4 update
+
+
 
 
 
