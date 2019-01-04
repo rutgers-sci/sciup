@@ -86,6 +86,9 @@ Dec 11: Update Bootstrap (theme)
 
 Dec 11: Update D8 Editor File upload module
 
+Jan 04: Drupal 8.6.5 update
+
+
 
 
 
