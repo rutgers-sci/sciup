@@ -88,8 +88,6 @@ Dec 11: Update D8 Editor File upload module
 
 Jan 04: Drupal 8.6.5 update
 
-Jan 16: Drupal 8.6.6 update
-
 
 
 
