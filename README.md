@@ -92,6 +92,9 @@ Feb 13: Drupal 8.6.9 update
 
 Feb 22: Drupal 8.6.10 security update
 
+Feb 22: Drupal 8.6.10 security updated (2nd try)
+
+
 
 
 
