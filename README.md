@@ -90,6 +90,10 @@ Jan 04: Drupal 8.6.5 update
 
 Feb 13: Drupal 8.6.9 update
 
+Feb 22: Drupal 8.6.10 security update
+
+
+
 
 
 
