@@ -100,6 +100,9 @@ Mar 15: Drupal 8.6.12 update
 
 Mar 15: Drupal 8.6.12 update (2nd try)
 
+Mar 15: Module updates (Chaos Tool Suite, Metatag, Paragraphs)
+
+
 
 
 
