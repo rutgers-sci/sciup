@@ -118,6 +118,9 @@ Apr 11: Drupal 8.6.14 update (3rd try)
 
 Apr 11: Drupal 8.6.14 update (3rd try)
 
+Apr 11: Update Pathauto, Paragraphs, D8 Editor File upload modules
+
+
 
 
 
