@@ -124,6 +124,10 @@ Apr 19: Drupal 8.6.15 update
 
 Apr 19: Update Pathauto, Paragraphs, D8 Editor File upload modules
 
+Apr 19: Update Pathauto, Paragraphs, D8 Editor File, Chaos Tool Suite upload modules
+
+
+
 
 
 
