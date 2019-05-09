@@ -128,6 +128,8 @@ Apr 19: Update Pathauto, Paragraphs, D8 Editor File, Chaos Tool Suite upload mod
 
 May 6: Drupal 8.7 update
 
+May 9: Drupal 8.7.1 update
+
 
 
 
