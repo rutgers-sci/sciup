@@ -130,7 +130,7 @@ May 6: Drupal 8.7 update
 
 May 9: Drupal 8.7.1 update
 
-May 9: Drupal 8.7.2 update
+May 24: Drupal 8.7.2 update
 
 
 
