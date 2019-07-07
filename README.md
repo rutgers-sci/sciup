@@ -136,6 +136,9 @@ May 24: Update Video Embed Field module
 
 Jun 12: Drupal 8.7.3 update
 
+Jul 7: Drupal 8.7.4 update
+
+
 
 
 
