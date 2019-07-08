@@ -138,6 +138,9 @@ Jun 12: Drupal 8.7.3 update
 
 Jul 7: Drupal 8.7.4 update
 
+Jul 8: Drupal 8.7.4 update (2nd try)
+
+
 
 
 
