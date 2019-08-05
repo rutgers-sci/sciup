@@ -28,6 +28,8 @@
     "require": {
         "php": ">=7.0.8",
         "composer/installers": "^1.0.20",
+        "consolidation/annotated-command": "^2.12.0",
+        "consolidation/output-formatters": "^3.4",
         "cweagans/composer-patches": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.5.0",
         "drupal/auto_entitylabel": "^2.1@beta",
