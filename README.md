@@ -142,6 +142,8 @@ Jul 8: Drupal 8.7.4 update (2nd try)
 
 Jul 17: Drupal 9.7.5 update
 
+Aug 5: Update Metatag, Simple XML Sitemap, Redirect, Automatic Entity Label
+
 
 
 
