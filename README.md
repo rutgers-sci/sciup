@@ -146,6 +146,9 @@ Aug 5: Update Metatag, Simple XML Sitemap, Redirect, Automatic Entity Label
 
 Aug 5: Update Metatag, Simple XML Sitemap, Redirect (2nd try)
 
+Aug 5: Reinstall Drupal 8.7.5
+
+
 
 
 
