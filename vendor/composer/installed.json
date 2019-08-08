@@ -1476,68 +1476,6 @@
         "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core"
     },
     {
-        "name": "drupal/auto_entitylabel",
-        "version": "2.1.0-beta1",
-        "version_normalized": "2.1.0.0-beta1",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupalcode.org/project/auto_entitylabel.git",
-            "reference": "8.x-2.1-beta1"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/auto_entitylabel-8.x-2.1-beta1.zip",
-            "reference": "8.x-2.1-beta1",
-            "shasum": "94a77f55896744075ff21bc2bdfab91308a69a27"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-2.x": "2.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-2.1-beta1",
-                "datestamp": "1510484584",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Beta releases are not covered by Drupal security advisories."
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Pravin Ajaaz",
-                "homepage": "https://www.drupal.org/user/2910049"
-            },
-            {
-                "name": "RenatoG",
-                "homepage": "https://www.drupal.org/user/3326031"
-            },
-            {
-                "name": "bforchhammer",
-                "homepage": "https://www.drupal.org/user/216396"
-            },
-            {
-                "name": "purushotam.rai",
-                "homepage": "https://www.drupal.org/user/3193859"
-            }
-        ],
-        "description": "Allows hiding of entity label fields and automatic label creation.",
-        "homepage": "https://www.drupal.org/project/auto_entitylabel",
-        "support": {
-            "source": "http://cgit.drupalcode.org/auto_entitylabel",
-            "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
-        }
-    },
-    {
         "name": "drupal/bootstrap",
         "version": "3.16.0",
         "version_normalized": "3.16.0.0",
@@ -2400,133 +2338,6 @@
         }
     },
     {
-        "name": "drupal/metatag",
-        "version": "1.7.0",
-        "version_normalized": "1.7.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupalcode.org/project/metatag.git",
-            "reference": "8.x-1.7"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.7.zip",
-            "reference": "8.x-1.7",
-            "shasum": "93decaefd053c524918ceae5b5ef05dd77de0857"
-        },
-        "require": {
-            "drupal/core": "*",
-            "drupal/token": "^1.0"
-        },
-        "require-dev": {
-            "drupal/devel": "^1.0",
-            "drupal/metatag_dc": "*",
-            "drupal/metatag_open_graph": "*",
-            "drupal/page_manager": "^4.0",
-            "drupal/redirect": "^1.0",
-            "drupal/restui": "^1.0",
-            "drupal/schema_metatag": "^1.0",
-            "drupal/schema_web_page": "*"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.7",
-                "datestamp": "1535726393",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "See contributors",
-                "homepage": "https://www.drupal.org/node/640498/committers",
-                "role": "Developer"
-            },
-            {
-                "name": "Dave Reid",
-                "homepage": "https://www.drupal.org/user/53892"
-            }
-        ],
-        "description": "Manage meta tags for all entities.",
-        "homepage": "https://www.drupal.org/project/metatag",
-        "keywords": [
-            "Drupal",
-            "seo"
-        ],
-        "support": {
-            "source": "http://cgit.drupalcode.org/metatag",
-            "issues": "http://drupal.org/project/issues/metatag"
-        }
-    },
-    {
-        "name": "drupal/redirect",
-        "version": "1.3.0",
-        "version_normalized": "1.3.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupalcode.org/project/redirect.git",
-            "reference": "8.x-1.3"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.3.zip",
-            "reference": "8.x-1.3",
-            "shasum": "3f9620d186e25f36ac56755979932b8ea965b8c7"
-        },
-        "require": {
-            "drupal/core": "~8"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.3",
-                "datestamp": "1539682684",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Berdir",
-                "homepage": "https://www.drupal.org/user/214652"
-            },
-            {
-                "name": "Dave Reid",
-                "homepage": "https://www.drupal.org/user/53892"
-            },
-            {
-                "name": "pifagor",
-                "homepage": "https://www.drupal.org/user/2375692"
-            }
-        ],
-        "description": "Allows users to redirect from old URLs to new URLs.",
-        "homepage": "https://www.drupal.org/project/redirect",
-        "support": {
-            "source": "http://cgit.drupalcode.org/redirect"
-        }
-    },
-    {
         "name": "drupal/simple_block",
         "version": "1.0.0-beta1",
         "version_normalized": "1.0.0.0-beta1",
@@ -2573,69 +2384,6 @@
         "homepage": "https://www.drupal.org/project/simple_block",
         "support": {
             "source": "http://cgit.drupalcode.org/simple_block"
-        }
-    },
-    {
-        "name": "drupal/simple_sitemap",
-        "version": "2.12.0",
-        "version_normalized": "2.12.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupalcode.org/project/simple_sitemap.git",
-            "reference": "8.x-2.12"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-2.12.zip",
-            "reference": "8.x-2.12",
-            "shasum": "fe1c1a636adfba8358399a5a1ccdf20685066573"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-2.x": "2.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-2.12",
-                "datestamp": "1523203180",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            },
-            "drush": {
-                "services": {
-                    "drush.services.yml": "^9"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Pawel Ginalski (gbyte.co)",
-                "homepage": "https://www.drupal.org/u/gbyte.co",
-                "email": "contact@gbyte.co",
-                "role": "Maintainer"
-            },
-            {
-                "name": "Sam Becker (Sam152)",
-                "homepage": "https://www.drupal.org/u/sam152",
-                "role": "Co-maintainer"
-            }
-        ],
-        "description": "Simple XML sitemap creates a standard conform XML sitemap of your content.",
-        "homepage": "https://drupal.org/project/simple_sitemap",
-        "support": {
-            "source": "https://cgit.drupalcode.org/simple_sitemap",
-            "issues": "https://drupal.org/project/issues/simple_sitemap",
-            "irc": "irc://irc.freenode.org/drupal-contribute"
         }
     },
     {
@@ -8613,5 +8361,265 @@
             "GPL-2.0-or-later"
         ],
         "description": "Drupal is an open source content management platform powering millions of websites and applications."
+    },
+    {
+        "name": "drupal/metatag",
+        "version": "1.9.0",
+        "version_normalized": "1.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/metatag.git",
+            "reference": "8.x-1.9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.9.zip",
+            "reference": "8.x-1.9",
+            "shasum": "230960752c5afa17337fb69bae853bccb1a26ecd"
+        },
+        "require": {
+            "drupal/core": "*",
+            "drupal/token": "^1.0"
+        },
+        "require-dev": {
+            "drupal/devel": "^1.0",
+            "drupal/metatag_dc": "*",
+            "drupal/metatag_open_graph": "*",
+            "drupal/page_manager": "^4.0",
+            "drupal/redirect": "^1.0",
+            "drupal/restui": "^1.0",
+            "drupal/schema_metatag": "^1.0",
+            "drupal/schema_web_page": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.9",
+                "datestamp": "1563995941",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "See contributors",
+                "homepage": "https://www.drupal.org/node/640498/committers",
+                "role": "Developer"
+            },
+            {
+                "name": "Dave Reid",
+                "homepage": "https://www.drupal.org/user/53892"
+            }
+        ],
+        "description": "Manage meta tags for all entities.",
+        "homepage": "https://www.drupal.org/project/metatag",
+        "keywords": [
+            "Drupal",
+            "seo"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/metatag",
+            "issues": "http://drupal.org/project/issues/metatag"
+        }
+    },
+    {
+        "name": "drupal/redirect",
+        "version": "1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/redirect.git",
+            "reference": "8.x-1.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.4.zip",
+            "reference": "8.x-1.4",
+            "shasum": "4c7e0dc0ab0cbcc7d66e16cc684882c0eaa71c1c"
+        },
+        "require": {
+            "drupal/core": "~8"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.4",
+                "datestamp": "1561757585",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Berdir",
+                "homepage": "https://www.drupal.org/user/214652"
+            },
+            {
+                "name": "Dave Reid",
+                "homepage": "https://www.drupal.org/user/53892"
+            },
+            {
+                "name": "pifagor",
+                "homepage": "https://www.drupal.org/user/2375692"
+            }
+        ],
+        "description": "Allows users to redirect from old URLs to new URLs.",
+        "homepage": "https://www.drupal.org/project/redirect",
+        "support": {
+            "source": "https://git.drupalcode.org/project/redirect"
+        }
+    },
+    {
+        "name": "drupal/auto_entitylabel",
+        "version": "3.0.0-beta1",
+        "version_normalized": "3.0.0.0-beta1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/auto_entitylabel.git",
+            "reference": "8.x-3.0-beta1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/auto_entitylabel-8.x-3.0-beta1.zip",
+            "reference": "8.x-3.0-beta1",
+            "shasum": "9e58235519ff98d44687ef27e6c49af37b4ca533"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-3.x": "3.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-3.0-beta1",
+                "datestamp": "1563986592",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Pravin Ajaaz",
+                "homepage": "https://www.drupal.org/user/2910049"
+            },
+            {
+                "name": "RenatoG",
+                "homepage": "https://www.drupal.org/user/3326031"
+            },
+            {
+                "name": "bforchhammer",
+                "homepage": "https://www.drupal.org/user/216396"
+            },
+            {
+                "name": "colan",
+                "homepage": "https://www.drupal.org/user/58704"
+            },
+            {
+                "name": "diqidoq",
+                "homepage": "https://www.drupal.org/user/1001934"
+            },
+            {
+                "name": "purushotam.rai",
+                "homepage": "https://www.drupal.org/user/3193859"
+            }
+        ],
+        "description": "Allows hiding of entity label fields and automatic label creation.",
+        "homepage": "https://www.drupal.org/project/auto_entitylabel",
+        "support": {
+            "source": "https://git.drupalcode.org/project/auto_entitylabel",
+            "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
+        }
+    },
+    {
+        "name": "drupal/simple_sitemap",
+        "version": "3.3.0",
+        "version_normalized": "3.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/simple_sitemap.git",
+            "reference": "8.x-3.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-3.3.zip",
+            "reference": "8.x-3.3",
+            "shasum": "690605c75cc75bc088d0506505c71d78f7d46c8c"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "ext-xmlwriter": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-3.x": "3.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-3.3",
+                "datestamp": "1563488885",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            },
+            "drush": {
+                "services": {
+                    "drush.services.yml": "^9"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Pawel Ginalski (gbyte.co)",
+                "homepage": "https://www.drupal.org/u/gbyte.co",
+                "email": "contact@gbyte.co",
+                "role": "Maintainer"
+            },
+            {
+                "name": "gbyte.co",
+                "homepage": "https://www.drupal.org/user/2381352"
+            }
+        ],
+        "description": "Creates a standard conform hreflang XML sitemap of the site content and provides a framework for developing other sitemap types.",
+        "homepage": "https://drupal.org/project/simple_sitemap",
+        "support": {
+            "source": "https://cgit.drupalcode.org/simple_sitemap",
+            "issues": "https://drupal.org/project/issues/simple_sitemap",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
+        }
     }
 ]
