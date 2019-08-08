@@ -150,6 +150,9 @@ Aug 5: Reinstall Drupal 8.7.5
 
 Aug 5: Update Metatag, Redirect (3rd try)
 
+Aug 8: Drupal 8.7.6 update
+
+
 
 
 
