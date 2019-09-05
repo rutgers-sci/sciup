@@ -154,6 +154,7 @@ Aug 8: Drupal 8.7.6 update
 
 Aug 8: Update Automatic Entity Label, Metatag, Redirect, Simple XML sitemap modules
 
+Sep 5: Drupal 8.7.7 update
 
 
 
