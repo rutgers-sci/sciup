@@ -3165,25 +3165,25 @@
     },
     {
         "name": "drupal/metatag",
-        "version": "1.9.0",
-        "version_normalized": "1.9.0.0",
+        "version": "1.10.0",
+        "version_normalized": "1.10.0.0",
         "source": {
             "type": "git",
             "url": "https://git.drupalcode.org/project/metatag.git",
-            "reference": "8.x-1.9"
+            "reference": "8.x-1.10"
         },
         "dist": {
             "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.9.zip",
-            "reference": "8.x-1.9",
-            "shasum": "230960752c5afa17337fb69bae853bccb1a26ecd"
+            "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.10.zip",
+            "reference": "8.x-1.10",
+            "shasum": "06275ae0f72cfcdbec8b8e8fd5d0863a5967bbcc"
         },
         "require": {
             "drupal/core": "*",
             "drupal/token": "^1.0"
         },
         "require-dev": {
-            "drupal/devel": "^1.0",
+            "drupal/devel": "^2.0",
             "drupal/metatag_dc": "*",
             "drupal/metatag_open_graph": "*",
             "drupal/page_manager": "^4.0",
@@ -3198,8 +3198,8 @@
                 "dev-1.x": "1.x-dev"
             },
             "drupal": {
-                "version": "8.x-1.9",
-                "datestamp": "1563995941",
+                "version": "8.x-1.10",
+                "datestamp": "1567099985",
                 "security-coverage": {
                     "status": "covered",
                     "message": "Covered by Drupal's security advisory policy"
@@ -3235,18 +3235,18 @@
     },
     {
         "name": "drupal/paragraphs",
-        "version": "1.8.0",
-        "version_normalized": "1.8.0.0",
+        "version": "1.9.0",
+        "version_normalized": "1.9.0.0",
         "source": {
             "type": "git",
             "url": "https://git.drupalcode.org/project/paragraphs.git",
-            "reference": "8.x-1.8"
+            "reference": "8.x-1.9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.8.zip",
-            "reference": "8.x-1.8",
-            "shasum": "a40849233de8403f5488c20c5b81ab4877373f65"
+            "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.9.zip",
+            "reference": "8.x-1.9",
+            "shasum": "c04753047fc995bfa2236c272d0b8344d77ee25d"
         },
         "require": {
             "drupal/core": "~8",
@@ -3274,8 +3274,8 @@
                 "dev-1.x": "1.x-dev"
             },
             "drupal": {
-                "version": "8.x-1.8",
-                "datestamp": "1553618281",
+                "version": "8.x-1.9",
+                "datestamp": "1565881389",
                 "security-coverage": {
                     "status": "covered",
                     "message": "Covered by Drupal's security advisory policy"
@@ -7301,39 +7301,6 @@
                 "/Tests/"
             ]
         },
-        "require-dev": {
-            "psr/cache": "~1.0",
-            "symfony/browser-kit": "~2.8|~3.0|~4.0",
-            "symfony/class-loader": "~2.8|~3.0",
-            "symfony/config": "~2.8|~3.0|~4.0",
-            "symfony/console": "~2.8|~3.0|~4.0",
-            "symfony/css-selector": "~2.8|~3.0|~4.0",
-            "symfony/dependency-injection": "^3.4.10|^4.0.10",
-            "symfony/dom-crawler": "~2.8|~3.0|~4.0",
-            "symfony/expression-language": "~2.8|~3.0|~4.0",
-            "symfony/finder": "~2.8|~3.0|~4.0",
-            "symfony/process": "~2.8|~3.0|~4.0",
-            "symfony/routing": "~3.4|~4.0",
-            "symfony/stopwatch": "~2.8|~3.0|~4.0",
-            "symfony/templating": "~2.8|~3.0|~4.0",
-            "symfony/translation": "~2.8|~3.0|~4.0",
-            "symfony/var-dumper": "~3.3|~4.0"
-        },
-        "suggest": {
-            "symfony/browser-kit": "",
-            "symfony/config": "",
-            "symfony/console": "",
-            "symfony/dependency-injection": "",
-            "symfony/finder": "",
-            "symfony/var-dumper": ""
-        },
-        "time": "2019-07-27T17:14:06+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
@@ -7845,7 +7812,7 @@
             "symfony/property-info": "To deserialize relations.",
             "symfony/yaml": "For using the default YAML mapping loader."
         },
-        "time": "2019-07-19T11:52:08+00:00",
+        "time": "2019-08-26T07:52:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8432,7 +8399,7 @@
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "MIT"
+            "GPL-2.0+"
         ],
         "authors": [
             {
@@ -8603,6 +8570,16 @@
         },
         "installation-source": "dist",
         "autoload": {
+            "files": [
+                "src/functions/create_uploaded_file.php",
+                "src/functions/marshal_headers_from_sapi.php",
+                "src/functions/marshal_method_from_sapi.php",
+                "src/functions/marshal_protocol_version_from_sapi.php",
+                "src/functions/marshal_uri_from_sapi.php",
+                "src/functions/normalize_server.php",
+                "src/functions/normalize_uploaded_files.php",
+                "src/functions/parse_cookie_header.php"
+            ],
             "psr-4": {
                 "Zend\\Feed\\": "src/"
             }
