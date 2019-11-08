@@ -158,41 +158,5 @@ Sep 5: Drupal 8.7.7 update
 
 Sep 5: Update Metatag, Paragraphs modules
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Oct 3: Drupal 8.7.8 update
 

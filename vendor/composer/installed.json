@@ -2406,17 +2406,17 @@
     },
     {
         "name": "drupal/core",
-        "version": "8.7.7",
-        "version_normalized": "8.7.7.0",
+        "version": "8.7.8",
+        "version_normalized": "8.7.8.0",
         "source": {
             "type": "git",
             "url": "https://github.com/drupal/core.git",
-            "reference": "32e1d7a67bbc28f07dc43d9ff692c0e90a4aeb92"
+            "reference": "476f491b85306c09101106d9b66a5dbe73c21bf0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/drupal/core/zipball/32e1d7a67bbc28f07dc43d9ff692c0e90a4aeb92",
-            "reference": "32e1d7a67bbc28f07dc43d9ff692c0e90a4aeb92",
+            "url": "https://api.github.com/repos/drupal/core/zipball/476f491b85306c09101106d9b66a5dbe73c21bf0",
+            "reference": "476f491b85306c09101106d9b66a5dbe73c21bf0",
             "shasum": ""
         },
         "require": {
@@ -2454,7 +2454,7 @@
             "symfony/http-kernel": "~3.4.14",
             "symfony/polyfill-iconv": "^1.0",
             "symfony/process": "~3.4.0",
-            "symfony/psr-http-message-bridge": "^1.0",
+            "symfony/psr-http-message-bridge": "^1.1.2",
             "symfony/routing": "~3.4.0",
             "symfony/serializer": "~3.4.0",
             "symfony/translation": "~3.4.0",
@@ -2594,7 +2594,7 @@
             "symfony/debug": "^3.4.0",
             "symfony/phpunit-bridge": "^3.4.3"
         },
-        "time": "2019-09-04T10:26:35+00:00",
+        "time": "2019-10-02T18:41:30+00:00",
         "type": "drupal-core",
         "extra": {
             "merge-plugin": {
@@ -7301,15 +7301,6 @@
                 "/Tests/"
             ]
         },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\HttpKernel\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
@@ -7981,6 +7972,9 @@
         },
         "installation-source": "dist",
         "autoload": {
+            "files": [
+                "Resources/functions/dump.php"
+            ],
             "psr-4": {
                 "Symfony\\Component\\Validator\\": ""
             },
@@ -7994,8 +7988,8 @@
         ],
         "authors": [
             {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
             },
             {
                 "name": "Symfony Community",
@@ -8108,7 +8102,7 @@
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "3.4-dev"
+                "dev-master": "1.42-dev"
             }
         },
         "installation-source": "dist",
@@ -8116,22 +8110,30 @@
             "psr-4": {
                 "Symfony\\Component\\Yaml\\": ""
             },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
+            "psr-4": {
+                "Twig\\": "src/"
+            }
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "MIT"
+            "BSD-3-Clause"
         ],
         "authors": [
             {
                 "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
+                "role": "Lead Developer",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org"
             },
             {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
+                "name": "Twig Team",
+                "role": "Contributors",
+                "homepage": "https://twig.symfony.com/contributors"
+            },
+            {
+                "name": "Armin Ronacher",
+                "role": "Project Founder",
+                "email": "armin.ronacher@active-4.com"
             }
         ],
         "description": "Symfony Yaml Component",
@@ -8242,7 +8244,7 @@
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "MIT"
+            "GPL-2.0+"
         ],
         "description": "Interceptors for PHP's native phar:// stream handling",
         "homepage": "https://typo3.org/",
@@ -8346,7 +8348,7 @@
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "MIT"
+            "GPL-2.0+"
         ],
         "authors": [
             {
@@ -8399,7 +8401,7 @@
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "GPL-2.0+"
+            "MIT"
         ],
         "authors": [
             {
@@ -8475,17 +8477,17 @@
     },
     {
         "name": "zendframework/zend-escaper",
-        "version": "2.6.0",
-        "version_normalized": "2.6.0.0",
+        "version": "2.6.1",
+        "version_normalized": "2.6.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/zendframework/zend-escaper.git",
-            "reference": "31d8aafae982f9568287cb4dce987e6aff8fd074"
+            "reference": "3801caa21b0ca6aca57fa1c42b08d35c395ebd5f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/zendframework/zend-escaper/zipball/31d8aafae982f9568287cb4dce987e6aff8fd074",
-            "reference": "31d8aafae982f9568287cb4dce987e6aff8fd074",
+            "url": "https://api.github.com/repos/zendframework/zend-escaper/zipball/3801caa21b0ca6aca57fa1c42b08d35c395ebd5f",
+            "reference": "3801caa21b0ca6aca57fa1c42b08d35c395ebd5f",
             "shasum": ""
         },
         "require": {
@@ -8495,7 +8497,7 @@
             "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
             "zendframework/zend-coding-standard": "~1.0.0"
         },
-        "time": "2018-04-25T15:48:53+00:00",
+        "time": "2019-09-05T20:03:20+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -8570,16 +8572,6 @@
         },
         "installation-source": "dist",
         "autoload": {
-            "files": [
-                "src/functions/create_uploaded_file.php",
-                "src/functions/marshal_headers_from_sapi.php",
-                "src/functions/marshal_method_from_sapi.php",
-                "src/functions/marshal_protocol_version_from_sapi.php",
-                "src/functions/marshal_uri_from_sapi.php",
-                "src/functions/normalize_server.php",
-                "src/functions/normalize_uploaded_files.php",
-                "src/functions/parse_cookie_header.php"
-            ],
             "psr-4": {
                 "Zend\\Feed\\": "src/"
             }
